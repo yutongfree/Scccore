@@ -1,6 +1,6 @@
 library(shiny)
 library(ggplot2)
-a<-read.csv("data/01.csv",header = T,sep = ",")
+a<-read.csv("01.csv",header = T,sep = ",")
 shinyServer(function(input, output) { 
   
   passData <- reactive({
